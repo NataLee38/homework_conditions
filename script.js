@@ -37,8 +37,5 @@ if (min >= 0 && min <= 15) {
     console.log("else")
 }
 
-if (age >= 18) {
-    console.log("adult")
-} else {
-    console.log("underage")
-}
+age >= 18 ? console.log("adult") : console.log("underage");
+
